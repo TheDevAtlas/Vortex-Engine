@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482df6c4b84021e41a46f5e79aa23bdc, type: 3}
+  m_Name: Double Trouble
+  m_EditorClassIdentifier: 
+  NAME: Double Trouble
+  ID: 18
+  VID: 0
+  START_HEALTH: 250
+  MAX_HEALTH: 500
+  FIGURE_SPRITE: {fileID: 2800000, guid: c837bfb0f160533448cd46f4bb9a34a9, type: 3}
+  ELEMENT: 6
+  TYPE: 0

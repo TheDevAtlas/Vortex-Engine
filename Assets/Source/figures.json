@@ -1,0 +1,4107 @@
+{
+"skylanders":
+[
+	{
+		"Id": 0,
+		"Variant": 0,
+		"Name": "Whirlwind",
+		"Series": "Spyros Adventure",
+		"Element": "Air"
+	},
+	{
+		"Id": 0,
+		"Variant": 6145,
+		"Name": "Whirlwind (S2)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 0,
+		"Variant": 7170,
+		"Name": "Whirlwind (Polar)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 0,
+		"Variant": 10245,
+		"Name": "Whirlwind (Horn Blast)",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 0,
+		"Variant": 14352,
+		"Name": "Whirlwind (Eon's Elite)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 1,
+		"Variant": 0,
+		"Name": "Sonic Boom",
+		"Series": "Spyros Adventure",
+		"Element": "Air"
+	},
+	{
+		"Id": 1,
+		"Variant": 6145,
+		"Name": "Sonic Boom (S2)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 1,
+		"Variant": 6161,
+		"Name": "Sonic Boom (Glow In The Dark)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 1,
+		"Variant": 6163,
+		"Name": "Sonic Boom (Sparkle)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 2,
+		"Variant": 0,
+		"Name": "Warnado",
+		"Series": "Spyros Adventure",
+		"Element": "Air"
+	},
+	{
+		"Id": 2,
+		"Variant": 8710,
+		"Name": "Warnado (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 3,
+		"Variant": 0,
+		"Name": "Lightning Rod",
+		"Series": "Spyros Adventure",
+		"Element": "Air"
+	},
+	{
+		"Id": 3,
+		"Variant": 6145,
+		"Name": "Lightning Rod (S2)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 4,
+		"Variant": 0,
+		"Name": "Bash",
+		"Series": "Spyros Adventure",
+		"Element": "Earth"
+	},
+	{
+		"Id": 4,
+		"Variant": 6145,
+		"Name": "Bash (S2)",
+		"Series": "Giants",
+		"Element": "Earth"
+	},
+	{
+		"Id": 5,
+		"Variant": 0,
+		"Name": "Terrafin",
+		"Series": "Spyros Adventure",
+		"Element": "Earth"
+	},
+	{
+		"Id": 5,
+		"Variant": 6145,
+		"Name": "Terrafin (S2)",
+		"Series": "Giants",
+		"Element": "Earth"
+	},
+	{
+		"Id": 5,
+		"Variant": 10245,
+		"Name": "Terrafin (Knockout)",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 5,
+		"Variant": 14352,
+		"Name": "Terrafin (Eon's Elite)",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 6,
+		"Variant": 0,
+		"Name": "Dino-Rang",
+		"Series": "Spyros Adventure",
+		"Element": "Earth"
+	},
+	{
+		"Id": 6,
+		"Variant": 18448,
+		"Name": "Dino-Rang (Eon's Elite)",
+		"Series": "Superchargers",
+		"Element": "Earth"
+	},
+	{
+		"Id": 7,
+		"Variant": 0,
+		"Name": "Prism Break",
+		"Series": "Spyros Adventure",
+		"Element": "Earth"
+	},
+	{
+		"Id": 7,
+		"Variant": 4614,
+		"Name": "Prism Break (Lightcore)",
+		"Series": "Giants",
+		"Element": "Earth"
+	},
+	{
+		"Id": 7,
+		"Variant": 6145,
+		"Name": "Prism Break (S2)",
+		"Series": "Giants",
+		"Element": "Earth"
+	},
+	{
+		"Id": 7,
+		"Variant": 10245,
+		"Name": "Prism Break (Hyper Beam)",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 8,
+		"Variant": 0,
+		"Name": "Sunburn",
+		"Series": "Spyros Adventure",
+		"Element": "Fire"
+	},
+	{
+		"Id": 9,
+		"Variant": 0,
+		"Name": "Eruptor",
+		"Series": "Spyros Adventure",
+		"Element": "Fire"
+	},
+	{
+		"Id": 9,
+		"Variant": 4614,
+		"Name": "Eruptor (Lightcore)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 9,
+		"Variant": 6145,
+		"Name": "Eruptor (S2)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 9,
+		"Variant": 10245,
+		"Name": "Eruptor (Lava Barf)",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 9,
+		"Variant": 11266,
+		"Name": "Eruptor (Volcanic)",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 9,
+		"Variant": 14352,
+		"Name": "Eruptor (Eon's Elite)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 10,
+		"Variant": 0,
+		"Name": "Ignitor",
+		"Series": "Spyros Adventure",
+		"Element": "Fire"
+	},
+	{
+		"Id": 10,
+		"Variant": 6145,
+		"Name": "Ignitor (S2)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 10,
+		"Variant": 7171,
+		"Name": "Ignitor (Legendary)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 11,
+		"Variant": 0,
+		"Name": "Flameslinger",
+		"Series": "Spyros Adventure",
+		"Element": "Fire"
+	},
+	{
+		"Id": 11,
+		"Variant": 6145,
+		"Name": "Flameslinger (S2)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 11,
+		"Variant": 6146,
+		"Name": "Flameslinger (Golden)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 12,
+		"Variant": 0,
+		"Name": "Zap",
+		"Series": "Spyros Adventure",
+		"Element": "Water"
+	},
+	{
+		"Id": 12,
+		"Variant": 6145,
+		"Name": "Zap (S2)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 13,
+		"Variant": 0,
+		"Name": "Wham-Shell",
+		"Series": "Spyros Adventure",
+		"Element": "Water"
+	},
+	{
+		"Id": 13,
+		"Variant": 8710,
+		"Name": "Wham-Shell (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 14,
+		"Variant": 0,
+		"Name": "Gill Grunt",
+		"Series": "Spyros Adventure",
+		"Element": "Water"
+	},
+	{
+		"Id": 14,
+		"Variant": 6145,
+		"Name": "Gill Grunt (S2)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 14,
+		"Variant": 6167,
+		"Name": "Gill Grunt (Metallic)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 14,
+		"Variant": 10245,
+		"Name": "Gill Grunt (Anchors Away)",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 14,
+		"Variant": 14345,
+		"Name": "Gill Grunt (Tidal Wave)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 14,
+		"Variant": 14352,
+		"Name": "Gill Grunt (Eon's Elite)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 15,
+		"Variant": 0,
+		"Name": "Slam Bam",
+		"Series": "Spyros Adventure",
+		"Element": "Water"
+	},
+	{
+		"Id": 15,
+		"Variant": 6145,
+		"Name": "Slam Bam (S2)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 15,
+		"Variant": 7171,
+		"Name": "Slam Bam (Legendary)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 15,
+		"Variant": 14352,
+		"Name": "Slam Bam (Eon's Elite)",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 16,
+		"Variant": 0,
+		"Name": "Spyro",
+		"Series": "Spyros Adventure",
+		"Element": "Magic"
+	},
+	{
+		"Id": 16,
+		"Variant": 6145,
+		"Name": "Spyro (S2)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 16,
+		"Variant": 10245,
+		"Name": "Spyro (Mega Ram)",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 16,
+		"Variant": 11266,
+		"Name": "Spyro (Dark Mega Ram)",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 16,
+		"Variant": 14352,
+		"Name": "Spyro (Eon's Elite)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 17,
+		"Variant": 0,
+		"Name": "Voodood",
+		"Series": "Spyros Adventure",
+		"Element": "Magic"
+	},
+	{
+		"Id": 17,
+		"Variant": 14352,
+		"Name": "Voodood (Eon's Elite)",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 18,
+		"Variant": 0,
+		"Name": "Double Trouble",
+		"Series": "Spyros Adventure",
+		"Element": "Magic"
+	},
+	{
+		"Id": 18,
+		"Variant": 6145,
+		"Name": "Double Trouble (S2)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 18,
+		"Variant": 7170,
+		"Name": "Double Trouble (Royal)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 19,
+		"Variant": 0,
+		"Name": "Trigger Happy",
+		"Series": "Spyros Adventure",
+		"Element": "Tech"
+	},
+	{
+		"Id": 19,
+		"Variant": 6145,
+		"Name": "Trigger Happy (S2)",
+		"Series": "Giants",
+		"Element": "Tech"
+	},
+	{
+		"Id": 19,
+		"Variant": 10245,
+		"Name": "Trigger Happy (Big Bang)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 19,
+		"Variant": 11266,
+		"Name": "Trigger Happy (Springtime)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 19,
+		"Variant": 14352,
+		"Name": "Trigger Happy (Eon's Elite)",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 20,
+		"Variant": 0,
+		"Name": "Drobot",
+		"Series": "Spyros Adventure",
+		"Element": "Tech"
+	},
+	{
+		"Id": 20,
+		"Variant": 4614,
+		"Name": "Drobot (Lightcore)",
+		"Series": "Giants",
+		"Element": "Tech"
+	},
+	{
+		"Id": 20,
+		"Variant": 6145,
+		"Name": "Drobot (S2)",
+		"Series": "Giants",
+		"Element": "Tech"
+	},
+	{
+		"Id": 21,
+		"Variant": 0,
+		"Name": "Drill Sergeant",
+		"Series": "Spyros Adventure",
+		"Element": "Tech"
+	},
+	{
+		"Id": 21,
+		"Variant": 6145,
+		"Name": "Drill Sergeant (S2)",
+		"Series": "Giants",
+		"Element": "Tech"
+	},
+	{
+		"Id": 22,
+		"Variant": 0,
+		"Name": "Boomer",
+		"Series": "Spyros Adventure",
+		"Element": "Tech"
+	},
+	{
+		"Id": 22,
+		"Variant": 18448,
+		"Name": "Boomer (Eon's Elite)",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 23,
+		"Variant": 0,
+		"Name": "Wrecking Ball",
+		"Series": "Spyros Adventure",
+		"Element": "Magic"
+	},
+	{
+		"Id": 23,
+		"Variant": 6145,
+		"Name": "Wrecking Ball (S2)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 24,
+		"Variant": 0,
+		"Name": "Camo",
+		"Series": "Spyros Adventure",
+		"Element": "Life"
+	},
+	{
+		"Id": 24,
+		"Variant": 10245,
+		"Name": "Camo (Thorn Horn)",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 25,
+		"Variant": 0,
+		"Name": "Zook",
+		"Series": "Spyros Adventure",
+		"Element": "Life"
+	},
+	{
+		"Id": 25,
+		"Variant": 6145,
+		"Name": "Zook (S2)",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 25,
+		"Variant": 14352,
+		"Name": "Zook (Eon's Elite)",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 26,
+		"Variant": 0,
+		"Name": "Stealth Elf",
+		"Series": "Spyros Adventure",
+		"Element": "Life"
+	},
+	{
+		"Id": 26,
+		"Variant": 6145,
+		"Name": "Stealth Elf (S2)",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 26,
+		"Variant": 7171,
+		"Name": "Stealth Elf (Legendary)",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 26,
+		"Variant": 10245,
+		"Name": "Stealth Elf (Ninja)",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 26,
+		"Variant": 11266,
+		"Name": "Stealth Elf (Dark)",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 26,
+		"Variant": 14352,
+		"Name": "Stealth Elf (Eon's Elite)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 27,
+		"Variant": 0,
+		"Name": "Stump Smash",
+		"Series": "Spyros Adventure",
+		"Element": "Life"
+	},
+	{
+		"Id": 27,
+		"Variant": 6145,
+		"Name": "Stump Smash (S2)",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 28,
+		"Variant": 0,
+		"Name": "Spyro (Dark)",
+		"Series": "Spyros Adventure",
+		"Element": "Magic"
+	},
+	{
+		"Id": 29,
+		"Variant": 0,
+		"Name": "Hex",
+		"Series": "Spyros Adventure",
+		"Element": "Undead"
+	},
+	{
+		"Id": 29,
+		"Variant": 4614,
+		"Name": "Hex (Lightcore)",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 29,
+		"Variant": 6145,
+		"Name": "Hex (S2)",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 30,
+		"Variant": 0,
+		"Name": "Chop Chop",
+		"Series": "Spyros Adventure",
+		"Element": "Undead"
+	},
+	{
+		"Id": 30,
+		"Variant": 6145,
+		"Name": "Chop Chop (S2)",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 30,
+		"Variant": 10245,
+		"Name": "Chop Chop (Twin Blade)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 30,
+		"Variant": 10262,
+		"Name": "Chop Chop (Green Twin Blade)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 30,
+		"Variant": 14352,
+		"Name": "Chop Chop (Eon's Elite)",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 31,
+		"Variant": 0,
+		"Name": "Ghost Roaster",
+		"Series": "Spyros Adventure",
+		"Element": "Undead"
+	},
+	{
+		"Id": 31,
+		"Variant": 18448,
+		"Name": "Ghost Roaster (Eon's Elite)",
+		"Series": "Superchargers",
+		"Element": "Undead"
+	},
+	{
+		"Id": 32,
+		"Variant": 0,
+		"Name": "Cynder",
+		"Series": "Spyros Adventure",
+		"Element": "Undead"
+	},
+	{
+		"Id": 32,
+		"Variant": 6145,
+		"Name": "Cynder (S2)",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 32,
+		"Variant": 6161,
+		"Name": "Cynder (Glow In The Dark)",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 32,
+		"Variant": 10245,
+		"Name": "Cynder (Phantom)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 32,
+		"Variant": 12317,
+		"Name": "Cynder (Clear)",
+		"Series": "Spyros Adventure",
+		"Element": "Undead"
+	},
+	{
+		"Id": 100,
+		"Variant": 4096,
+		"Name": "Jet-Vac",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 100,
+		"Variant": 4614,
+		"Name": "Jet-Vac (Lightcore)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 100,
+		"Variant": 5123,
+		"Name": "Jet-Vac (Legendary)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 100,
+		"Variant": 10245,
+		"Name": "Jet Vac (Turbo)",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 100,
+		"Variant": 14341,
+		"Name": "Jet-Vac (Full Blast)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 101,
+		"Variant": 4614,
+		"Name": "Swarm (Giant)",
+		"Series": "Giants",
+		"Element": "Air"
+	},
+	{
+		"Id": 102,
+		"Variant": 4614,
+		"Name": "Crusher (Giant)",
+		"Series": "Giants",
+		"Element": "Earth"
+	},
+	{
+		"Id": 102,
+		"Variant": 5634,
+		"Name": "Granite Crusher (Giant)",
+		"Series": "Giants",
+		"Element": "Earth"
+	},
+	{
+		"Id": 103,
+		"Variant": 4096,
+		"Name": "Flashwing",
+		"Series": "Giants",
+		"Element": "Earth"
+	},
+	{
+		"Id": 103,
+		"Variant": 5122,
+		"Name": "Flashwing (Jade)",
+		"Series": "Giants",
+		"Element": "Earth"
+	},
+	{
+		"Id": 103,
+		"Variant": 8710,
+		"Name": "Flashwing (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 104,
+		"Variant": 4614,
+		"Name": "Hot Head (Giant)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 104,
+		"Variant": 4627,
+		"Name": "Hot Head (Sparkle)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 6,
+		"Variant": 4096,
+		"Name": "Hot Dog",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 6,
+		"Variant": 5122,
+		"Name": "Hot Dog (Molten)",
+		"Series": "Giants",
+		"Element": "Fire"
+	},
+	{
+		"Id": 6,
+		"Variant": 10245,
+		"Name": "Hot Dog (Fire Bone)",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 106,
+		"Variant": 4096,
+		"Name": "Chill",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 106,
+		"Variant": 4614,
+		"Name": "Chill (Lightcore)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 106,
+		"Variant": 5635,
+		"Name": "Chill (Legendary)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 106,
+		"Variant": 10245,
+		"Name": "Chill (Blizzard)",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 107,
+		"Variant": 4614,
+		"Name": "Thumpback (Giant)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 108,
+		"Variant": 4096,
+		"Name": "Pop Fizz",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 108,
+		"Variant": 4614,
+		"Name": "Pop Fizz (Lightcore)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 108,
+		"Variant": 5122,
+		"Name": "Pop Fizz (Punch)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 108,
+		"Variant": 10245,
+		"Name": "Pop Fizz (Super Gulp)",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 108,
+		"Variant": 14341,
+		"Name": "Pop Fizz (Fizzy Frenzy)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 108,
+		"Variant": 15362,
+		"Name": "Pop Fizz (Love Potion)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 109,
+		"Variant": 4614,
+		"Name": "Ninjini (Giant)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 109,
+		"Variant": 5634,
+		"Name": "Ninjini (Scarlet) (Giant)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 110,
+		"Variant": 4614,
+		"Name": "Bouncer (Giant)",
+		"Series": "Giants",
+		"Element": "Tech"
+	},
+	{
+		"Id": 110,
+		"Variant": 5635,
+		"Name": "Bouncer (Legendary) (Giant)",
+		"Series": "Giants",
+		"Element": "Tech"
+	},
+	{
+		"Id": 111,
+		"Variant": 4096,
+		"Name": "Sprocket",
+		"Series": "Giants",
+		"Element": "Tech"
+	},
+	{
+		"Id": 111,
+		"Variant": 10245,
+		"Name": "Sprocket (Heavy Duty)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 111,
+		"Variant": 10265,
+		"Name": "Sprocket (Heavy Metal)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 112,
+		"Variant": 4614,
+		"Name": "Tree Rex (Giant)",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 112,
+		"Variant": 5634,
+		"Name": "Tree Rex (Gnarly) (Giant)",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 113,
+		"Variant": 4096,
+		"Name": "Shroomboom",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 113,
+		"Variant": 4614,
+		"Name": "Shroomboom  (Lightcore)",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 113,
+		"Variant": 14337,
+		"Name": "Shroomboom (Sure Shot)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 114,
+		"Variant": 4614,
+		"Name": "Eye-Brawl (Giant)",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 114,
+		"Variant": 4629,
+		"Name": "Eye-Brawl (Pumpkin) (Giant) ???",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 115,
+		"Variant": 4096,
+		"Name": "Fright Rider",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 115,
+		"Variant": 4113,
+		"Name": "Fright Rider (Halloween) ???",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 115,
+		"Variant": 6161,
+		"Name": "Fright Rider (Glow In The Dark)",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 200,
+		"Variant": 8192,
+		"Name": "Item - Anvil Rain",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 201,
+		"Variant": 8192,
+		"Name": "Item - Hidden Treasure",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 202,
+		"Variant": 8192,
+		"Name": "Item - Healing Elixer",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 203,
+		"Variant": 8192,
+		"Name": "Item - Ghost Pirate Swords",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 204,
+		"Variant": 8192,
+		"Name": "Item - Time Twister Hourglass",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 205,
+		"Variant": 8192,
+		"Name": "Item - Sky-Iron Shield",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 206,
+		"Variant": 8192,
+		"Name": "Item - Winged Boots",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 207,
+		"Variant": 8192,
+		"Name": "Item - Sparx Dragonfly",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 208,
+		"Variant": 4614,
+		"Name": "Item - Dragonfire Cannon",
+		"Series": "Giants",
+		"Element": "None"
+	},
+	{
+		"Id": 208,
+		"Variant": 5634,
+		"Name": "Item - Golden Dragonfire Cannon",
+		"Series": "Giants",
+		"Element": "None"
+	},
+	{
+		"Id": 209,
+		"Variant": 4614,
+		"Name": "Item - Scorpion Striker Catapult",
+		"Series": "Giants",
+		"Element": "None"
+	},
+	{
+		"Id": 210,
+		"Variant": 12289,
+		"Name": "Trap - Magic Log Holder",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 210,
+		"Variant": 12296,
+		"Name": "Trap - Magic Skull",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 210,
+		"Variant": 12299,
+		"Name": "Trap - Magic Axe",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 210,
+		"Variant": 12302,
+		"Name": "Trap - Magic Hourglass",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 210,
+		"Variant": 12306,
+		"Name": "Trap - Magic Totem",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 210,
+		"Variant": 12309,
+		"Name": "Trap - Magic Rocket",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 211,
+		"Variant": 12289,
+		"Name": "Trap - Water Tiki",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 211,
+		"Variant": 12290,
+		"Name": "Trap - Water Log Holder",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 211,
+		"Variant": 12294,
+		"Name": "Trap - Water Jughead",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 211,
+		"Variant": 12295,
+		"Name": "Trap - Water Angel",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 211,
+		"Variant": 12299,
+		"Name": "Trap - Water Axe",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 211,
+		"Variant": 12310,
+		"Name": "Trap - Water Flying Helmet",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 211,
+		"Variant": 13318,
+		"Name": "Trap - Water Jughead (Legendary)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 212,
+		"Variant": 12291,
+		"Name": "Trap - Air Toucan",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 212,
+		"Variant": 12294,
+		"Name": "Trap - Air Jughead",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 212,
+		"Variant": 12302,
+		"Name": "Trap - Air Hourglass",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 212,
+		"Variant": 12304,
+		"Name": "Trap - Air Snake",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 212,
+		"Variant": 12305,
+		"Name": "Trap - Air Screamer",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 212,
+		"Variant": 12312,
+		"Name": "Trap - Air Sword",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 213,
+		"Variant": 12292,
+		"Name": "Trap - Undead Orb",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 213,
+		"Variant": 12296,
+		"Name": "Trap - Undead Skull",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 213,
+		"Variant": 12299,
+		"Name": "Trap - Undead Axe",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 213,
+		"Variant": 12300,
+		"Name": "Trap - Undead Hand",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 213,
+		"Variant": 12304,
+		"Name": "Trap - Undead Snake",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 213,
+		"Variant": 12311,
+		"Name": "Trap - Undead Captain's Hat",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 213,
+		"Variant": 13316,
+		"Name": "Trap - Undead Orb (Legendary)",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 213,
+		"Variant": 13320,
+		"Name": "Trap - Undead Skull (Legendary)",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 214,
+		"Variant": 12289,
+		"Name": "Trap - Tech Tiki",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 214,
+		"Variant": 12295,
+		"Name": "Trap - Tech Angel",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 214,
+		"Variant": 12297,
+		"Name": "Trap - Tech Scepter",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 214,
+		"Variant": 12300,
+		"Name": "Trap - Tech Hand",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 214,
+		"Variant": 12310,
+		"Name": "Trap - Tech Flying Helmet",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 214,
+		"Variant": 12314,
+		"Name": "Trap - Tech Handstand",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 215,
+		"Variant": 12289,
+		"Name": "Trap - Fire Flower",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 215,
+		"Variant": 12293,
+		"Name": "Trap - Fire Torch",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 215,
+		"Variant": 12297,
+		"Name": "Trap - Fire Flower (NEW)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 215,
+		"Variant": 12305,
+		"Name": "Trap - Fire Screamer",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 215,
+		"Variant": 12306,
+		"Name": "Trap - Fire Totem",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 215,
+		"Variant": 12311,
+		"Name": "Trap - Fire Captain's Hat",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 215,
+		"Variant": 12315,
+		"Name": "Trap - Fire Yawn",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 216,
+		"Variant": 12291,
+		"Name": "Trap - Earth Toucan",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 216,
+		"Variant": 12292,
+		"Name": "Trap - Earth Orb",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 216,
+		"Variant": 12298,
+		"Name": "Trap - Earth Hammer",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 216,
+		"Variant": 12302,
+		"Name": "Trap - Earth Hourglass",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 216,
+		"Variant": 12306,
+		"Name": "Trap - Earth Totem",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 216,
+		"Variant": 12314,
+		"Name": "Trap - Earth Handstand",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 217,
+		"Variant": 12289,
+		"Name": "Trap - Life Toucan",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 217,
+		"Variant": 12291,
+		"Name": "Trap - Life Toucan (NEW)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 217,
+		"Variant": 12293,
+		"Name": "Trap - Life Torch",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 217,
+		"Variant": 12298,
+		"Name": "Trap - Life Hammer",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 217,
+		"Variant": 12304,
+		"Name": "Trap - Life Snake",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 217,
+		"Variant": 12312,
+		"Name": "Trap - Life Sword",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 217,
+		"Variant": 12315,
+		"Name": "Trap - Life Yawn",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 218,
+		"Variant": 12308,
+		"Name": "Trap - Dark Spider",
+		"Series": "TrapTeam",
+		"Element": "Dark"
+	},
+	{
+		"Id": 218,
+		"Variant": 12312,
+		"Name": "Trap - Dark Sword",
+		"Series": "TrapTeam",
+		"Element": "Dark"
+	},
+	{
+		"Id": 218,
+		"Variant": 12314,
+		"Name": "Trap - Dark Handstand",
+		"Series": "TrapTeam",
+		"Element": "Dark"
+	},
+	{
+		"Id": 219,
+		"Variant": 12303,
+		"Name": "Trap - Light Owl",
+		"Series": "TrapTeam",
+		"Element": "Light"
+	},
+	{
+		"Id": 219,
+		"Variant": 12309,
+		"Name": "Trap - Light Rocket",
+		"Series": "TrapTeam",
+		"Element": "Light"
+	},
+	{
+		"Id": 219,
+		"Variant": 12315,
+		"Name": "Trap - Light Yawn",
+		"Series": "TrapTeam",
+		"Element": "Light"
+	},
+	{
+		"Id": 220,
+		"Variant": 12318,
+		"Name": "Trap - Kaos",
+		"Series": "TrapTeam",
+		"Element": "Kaos"
+	},
+	{
+		"Id": 220,
+		"Variant": 13599,
+		"Name": "Trap - Kaos (Ultimate)",
+		"Series": "TrapTeam",
+		"Element": "Kaos"
+	},
+	{
+		"Id": 230,
+		"Variant": 0,
+		"Name": "Item - Hand Of Fate",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 230,
+		"Variant": 13315,
+		"Name": "Item - Hand Of Fate (Legendary)",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 231,
+		"Variant": 0,
+		"Name": "Item - Piggy Bank",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 232,
+		"Variant": 0,
+		"Name": "Item - Rocket Ram",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 233,
+		"Variant": 0,
+		"Name": "Item - Tiki Speaky",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 235,
+		"Variant": 20481,
+		"Name": "Item - Mystery Chest (Bronze)",
+		"Series": "Imaginators",
+		"Element": "None"
+	},
+	{
+		"Id": 235,
+		"Variant": 20482,
+		"Name": "Item - Mystery Chest (Silver)",
+		"Series": "Imaginators",
+		"Element": "None"
+	},
+	{
+		"Id": 235,
+		"Variant": 20483,
+		"Name": "Item - Mystery Chest (Gold)",
+		"Series": "Imaginators",
+		"Element": "None"
+	},
+	{
+		"Id": 235,
+		"Variant": 20503,
+		"Name": "Item - Cursed Tiki Temple",
+		"Series": "Imaginators",
+		"Element": "None"
+	},
+	{
+		"Id": 235,
+		"Variant": 20505,
+		"Name": "Item - Lost Imaginite Mines",
+		"Series": "Imaginators",
+		"Element": "None"
+	},
+	{
+		"Id": 300,
+		"Variant": 0,
+		"Name": "Item - Dragon's Peak",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 301,
+		"Variant": 8192,
+		"Name": "Item - Empire Of Ice",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 302,
+		"Variant": 8192,
+		"Name": "Item - Pirate Ship",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 303,
+		"Variant": 8192,
+		"Name": "Item - Darklight Crypt",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 304,
+		"Variant": 8192,
+		"Name": "Item - Volcanic Vault",
+		"Series": "Spyros Adventure",
+		"Element": "None"
+	},
+	{
+		"Id": 305,
+		"Variant": 12288,
+		"Name": "Item - Mirror Of Mystery",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 306,
+		"Variant": 12288,
+		"Name": "Item - Nightmare Express",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 307,
+		"Variant": 12806,
+		"Name": "Item - Sunscraper Spire",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 308,
+		"Variant": 12806,
+		"Name": "Item - Midnight Museum",
+		"Series": "TrapTeam",
+		"Element": "None"
+	},
+	{
+		"Id": 310,
+		"Variant": 20480,
+		"Name": "Item - Gryphon Park Observatory",
+		"Series": "Imaginators",
+		"Element": "None"
+	},
+	{
+		"Id": 311,
+		"Variant": 20480,
+		"Name": "Item - Enchanted Elven Forest",
+		"Series": "Imaginators",
+		"Element": "None"
+	},
+	{
+		"Id": 404,
+		"Variant": 0,
+		"Name": "Bash (Legendary)",
+		"Series": "Spyros Adventure",
+		"Element": "Earth"
+	},
+	{
+		"Id": 416,
+		"Variant": 0,
+		"Name": "Spyro (Legendary)",
+		"Series": "Spyros Adventure",
+		"Element": "Magic"
+	},
+	{
+		"Id": 419,
+		"Variant": 0,
+		"Name": "Trigger Happy (Legendary)",
+		"Series": "Spyros Adventure",
+		"Element": "Tech"
+	},
+	{
+		"Id": 430,
+		"Variant": 0,
+		"Name": "Chop Chop (Legendary)",
+		"Series": "Spyros Adventure",
+		"Element": "Undead"
+	},
+	{
+		"Id": 450,
+		"Variant": 12288,
+		"Name": "Gusto (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 451,
+		"Variant": 12288,
+		"Name": "Thunderbolt (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 451,
+		"Variant": 12317,
+		"Name": "Thunderbolt (Clear) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 452,
+		"Variant": 12288,
+		"Name": "Fling Kong",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 453,
+		"Variant": 12288,
+		"Name": "Blades",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 453,
+		"Variant": 13315,
+		"Name": "Blades (Legendary)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 454,
+		"Variant": 12288,
+		"Name": "Wallop (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 455,
+		"Variant": 12288,
+		"Name": "Head Rush (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 455,
+		"Variant": 13314,
+		"Name": "Head Rush (Nitro)",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 456,
+		"Variant": 12288,
+		"Name": "Fist Bump",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 457,
+		"Variant": 12288,
+		"Name": "Rocky Roll",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 458,
+		"Variant": 12288,
+		"Name": "Wildfire (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 458,
+		"Variant": 13314,
+		"Name": "Wildfire (Dark) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 459,
+		"Variant": 12288,
+		"Name": "Kaboom (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 460,
+		"Variant": 12288,
+		"Name": "Trail Blazer",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 461,
+		"Variant": 12288,
+		"Name": "Torch",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 462,
+		"Variant": 12288,
+		"Name": "Snap Shot (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 462,
+		"Variant": 17679,
+		"Name": "Snap Shot (Virtual) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 462,
+		"Variant": 13314,
+		"Name": "Snap Shot (Dark) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 463,
+		"Variant": 12288,
+		"Name": "Lob Star (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 463,
+		"Variant": 13314,
+		"Name": "Lob Star (Winterfest) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 464,
+		"Variant": 12288,
+		"Name": "Flip Wreck",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 465,
+		"Variant": 12288,
+		"Name": "Echo",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 466,
+		"Variant": 12288,
+		"Name": "Blastermind (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 467,
+		"Variant": 12288,
+		"Name": "Enigma (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 468,
+		"Variant": 12288,
+		"Name": "Deja Vu",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 468,
+		"Variant": 13315,
+		"Name": "Deja Vu (Legendary)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 469,
+		"Variant": 12288,
+		"Name": "Cobra Cadabra",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 469,
+		"Variant": 13314,
+		"Name": "Cobra Cadabra (King)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 470,
+		"Variant": 12288,
+		"Name": "Jawbreaker (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 470,
+		"Variant": 13315,
+		"Name": "Jawbreaker (Legendary) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 471,
+		"Variant": 12288,
+		"Name": "Gearshift (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 472,
+		"Variant": 12288,
+		"Name": "Chopper",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 473,
+		"Variant": 12288,
+		"Name": "Tread Head",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 474,
+		"Variant": 12288,
+		"Name": "Bushwhack (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 474,
+		"Variant": 13315,
+		"Name": "Bushwhack (Legendary) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 475,
+		"Variant": 12288,
+		"Name": "Tuff Luck (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 475,
+		"Variant": 12317,
+		"Name": "Tuff Luck (Clear) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 476,
+		"Variant": 12288,
+		"Name": "Food Fight",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 476,
+		"Variant": 13314,
+		"Name": "Food Fight (Dark)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 476,
+		"Variant": 17679,
+		"Name": "Food Fight (Virtual)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 477,
+		"Variant": 12288,
+		"Name": "High Five",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 478,
+		"Variant": 12288,
+		"Name": "Krypt King (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 478,
+		"Variant": 13314,
+		"Name": "Krypt King (Nitro) (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 479,
+		"Variant": 12288,
+		"Name": "Short Cut (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 480,
+		"Variant": 12288,
+		"Name": "Bat Spin",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 481,
+		"Variant": 12288,
+		"Name": "Funny Bone",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 482,
+		"Variant": 12288,
+		"Name": "Knight Light (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Light"
+	},
+	{
+		"Id": 483,
+		"Variant": 12288,
+		"Name": "Spot Light",
+		"Series": "TrapTeam",
+		"Element": "Light"
+	},
+	{
+		"Id": 484,
+		"Variant": 12288,
+		"Name": "Knight Mare (Trap Master)",
+		"Series": "TrapTeam",
+		"Element": "Dark"
+	},
+	{
+		"Id": 485,
+		"Variant": 12288,
+		"Name": "Blackout",
+		"Series": "TrapTeam",
+		"Element": "Dark"
+	},
+	{
+		"Id": 502,
+		"Variant": 12288,
+		"Name": "Bop (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 503,
+		"Variant": 12288,
+		"Name": "Spry (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 504,
+		"Variant": 12288,
+		"Name": "Hijinx (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 505,
+		"Variant": 12288,
+		"Name": "Terrabite (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Earth"
+	},
+	{
+		"Id": 506,
+		"Variant": 12288,
+		"Name": "Breeze (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 507,
+		"Variant": 12288,
+		"Name": "Weeruptor (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 507,
+		"Variant": 13314,
+		"Name": "Weeruptor (Eggsellent) (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 508,
+		"Variant": 12288,
+		"Name": "Pet Vac (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 508,
+		"Variant": 13314,
+		"Name": "Pet Vac (Power Punch) (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Air"
+	},
+	{
+		"Id": 509,
+		"Variant": 12288,
+		"Name": "Small Fry (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 510,
+		"Variant": 12288,
+		"Name": "Drobit (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 514,
+		"Variant": 12288,
+		"Name": "Gill Runt (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 519,
+		"Variant": 12288,
+		"Name": "Trigger Snappy (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Tech"
+	},
+	{
+		"Id": 526,
+		"Variant": 12288,
+		"Name": "Whisper Elf (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 540,
+		"Variant": 4096,
+		"Name": "Barkley (Sidekick)",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 540,
+		"Variant": 12288,
+		"Name": "Barkley (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 540,
+		"Variant": 13314,
+		"Name": "Barkley (Gnarly) (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Life"
+	},
+	{
+		"Id": 541,
+		"Variant": 4096,
+		"Name": "Thumpling (Sidekick)",
+		"Series": "Giants",
+		"Element": "Water"
+	},
+	{
+		"Id": 541,
+		"Variant": 12288,
+		"Name": "Thumpling (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Water"
+	},
+	{
+		"Id": 542,
+		"Variant": 4096,
+		"Name": "Mini Jini (Sidekick)",
+		"Series": "Giants",
+		"Element": "Magic"
+	},
+	{
+		"Id": 542,
+		"Variant": 12288,
+		"Name": "Mini Jini (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Magic"
+	},
+	{
+		"Id": 543,
+		"Variant": 4096,
+		"Name": "Eye-Small (Sidekick)",
+		"Series": "Giants",
+		"Element": "Undead"
+	},
+	{
+		"Id": 543,
+		"Variant": 12288,
+		"Name": "Eye-Small (Mini)",
+		"Series": "TrapTeam",
+		"Element": "Undead"
+	},
+	{
+		"Id": 601,
+		"Variant": 20480,
+		"Name": "Sensei - King Pen",
+		"Series": "Imaginators",
+		"Element": "Water"
+	},
+	{
+		"Id": 601,
+		"Variant": 21506,
+		"Name": "Sensei - King Pen (Dark)",
+		"Series": "Imaginators",
+		"Element": "Water"
+	},
+	{
+		"Id": 602,
+		"Variant": 20480,
+		"Name": "Sensei - Tri-Tip",
+		"Series": "Imaginators",
+		"Element": "Earth"
+	},
+	{
+		"Id": 602,
+		"Variant": 21507,
+		"Name": "Sensei - Tri-Tip (Legendary)",
+		"Series": "Imaginators",
+		"Element": "Earth"
+	},
+	{
+		"Id": 603,
+		"Variant": 20480,
+		"Name": "Sensei - Chopscotch",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 603,
+		"Variant": 21525,
+		"Name": "Sensei - Chopscotch (Candy-Coated)",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 604,
+		"Variant": 20480,
+		"Name": "Sensei - Boom Bloom",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 605,
+		"Variant": 20480,
+		"Name": "Sensei - Pit Boss",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 605,
+		"Variant": 21507,
+		"Name": "Sensei - Pit Boss (Legendary)",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 606,
+		"Variant": 20480,
+		"Name": "Sensei - Barbella",
+		"Series": "Imaginators",
+		"Element": "Earth"
+	},
+	{
+		"Id": 607,
+		"Variant": 20480,
+		"Name": "Sensei - Air Strike",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 607,
+		"Variant": 21517,
+		"Name": "Sensei - Air Strike (Egg Bomber)",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 608,
+		"Variant": 20480,
+		"Name": "Sensei - Ember",
+		"Series": "Imaginators",
+		"Element": "Fire"
+	},
+	{
+		"Id": 609,
+		"Variant": 20480,
+		"Name": "Sensei - Ambush",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 610,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Dr. Krankcase",
+		"Series": "Imaginators",
+		"Element": "Tech"
+	},
+	{
+		"Id": 611,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Hood Sickle",
+		"Series": "Imaginators",
+		"Element": "Dark"
+	},
+	{
+		"Id": 611,
+		"Variant": 21506,
+		"Name": "Villain Sensei - Hood Sickle (Steel Plated)",
+		"Series": "Imaginators",
+		"Element": "Dark"
+	},
+	{
+		"Id": 612,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Tae Kwon Crow",
+		"Series": "Imaginators",
+		"Element": "Fire"
+	},
+	{
+		"Id": 612,
+		"Variant": 21506,
+		"Name": "Villain Sensei - Tae Kwon Crow (Mystical)",
+		"Series": "Imaginators",
+		"Element": "Fire"
+	},
+	{
+		"Id": 613,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Golden Queen",
+		"Series": "Imaginators",
+		"Element": "Earth"
+	},
+	{
+		"Id": 613,
+		"Variant": 21506,
+		"Name": "Villain Sensei - Golden Queen (Dark)",
+		"Series": "Imaginators",
+		"Element": "Earth"
+	},
+	{
+		"Id": 614,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Wolfgang",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 614,
+		"Variant": 21506,
+		"Name": "Villain Sensei - Wolfgang (Dark)",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 615,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Pain-Yatta",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 616,
+		"Variant": 20480,
+		"Name": "Sensei - Mysticat",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 38,
+		"Variant": 20480,
+		"Name": "Sensei - Starcast",
+		"Series": "Imaginators",
+		"Element": "Dark"
+	},
+	{
+		"Id": 618,
+		"Variant": 20480,
+		"Name": "Sensei - Buckshot",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 618,
+		"Variant": 21516,
+		"Name": "Sensei - Buckshot (Heart-breaker)",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 619,
+		"Variant": 20480,
+		"Name": "Sensei - Aurora",
+		"Series": "Imaginators",
+		"Element": "Light"
+	},
+	{
+		"Id": 619,
+		"Variant": 21506,
+		"Name": "Sensei - Aurora (Solar Flare)",
+		"Series": "Imaginators",
+		"Element": "Light"
+	},
+	{
+		"Id": 620,
+		"Variant": 20480,
+		"Name": "Sensei - Flare Wolf",
+		"Series": "Imaginators",
+		"Element": "Fire"
+	},
+	{
+		"Id": 620,
+		"Variant": 21517,
+		"Name": "Sensei - Flare Wolf (Hard-Boiled)",
+		"Series": "Imaginators",
+		"Element": "Fire"
+	},
+	{
+		"Id": 621,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Chompy Mage",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 621,
+		"Variant": 21518,
+		"Name": "Villain Sensei - Chompy Mage (Jingle Bell)",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 622,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Bad Juju",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 622,
+		"Variant": 21506,
+		"Name": "Villain Sensei - Bad Juju (Mystical)",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 623,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Grave Clobber",
+		"Series": "Imaginators",
+		"Element": "Water"
+	},
+	{
+		"Id": 624,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Blaster-Tron",
+		"Series": "Imaginators",
+		"Element": "Light"
+	},
+	{
+		"Id": 625,
+		"Variant": 20480,
+		"Name": "Sensei - Ro-Bow",
+		"Series": "Imaginators",
+		"Element": "Tech"
+	},
+	{
+		"Id": 626,
+		"Variant": 20480,
+		"Name": "Sensei - Chain Reaction",
+		"Series": "Imaginators",
+		"Element": "Tech"
+	},
+	{
+		"Id": 627,
+		"Variant": 20480,
+		"Name": "Villain Sensei - Kaos",
+		"Series": "Imaginators",
+		"Element": "Kaos"
+	},
+	{
+		"Id": 628,
+		"Variant": 20480,
+		"Name": "Sensei - Wild Storm",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 629,
+		"Variant": 20480,
+		"Name": "Sensei - Tidepool",
+		"Series": "Imaginators",
+		"Element": "Water"
+	},
+	{
+		"Id": 630,
+		"Variant": 20480,
+		"Name": "Sensei - Crash Bandicoot",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 631,
+		"Variant": 20480,
+		"Name": "Sensei - Dr. Neo Cortex",
+		"Series": "Imaginators",
+		"Element": "Tech"
+	},
+	{
+		"Id": 680,
+		"Variant": 20996,
+		"Name": "Crystal - Magic Pyramid",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 680,
+		"Variant": 21000,
+		"Name": "Crystal - Magic Lantern",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 680,
+		"Variant": 21019,
+		"Name": "Crystal - Magic Claw",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 680,
+		"Variant": 22024,
+		"Name": "Crystal - Magic Lantern (Legendary)",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 681,
+		"Variant": 21012,
+		"Name": "Crystal - Water Armor",
+		"Series": "Imaginators",
+		"Element": "Water"
+	},
+	{
+		"Id": 681,
+		"Variant": 21016,
+		"Name": "Crystal - Water Fanged",
+		"Series": "Imaginators",
+		"Element": "Water"
+	},
+	{
+		"Id": 681,
+		"Variant": 21020,
+		"Name": "Crystal - Water Rocket",
+		"Series": "Imaginators",
+		"Element": "Water"
+	},
+	{
+		"Id": 682,
+		"Variant": 20994,
+		"Name": "Crystal - Air Angel",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 682,
+		"Variant": 20999,
+		"Name": "Crystal - Air Lantern",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 682,
+		"Variant": 39321,
+		"Name": "Crystal - Air Acorn ???",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 683,
+		"Variant": 21001,
+		"Name": "Crystal - Undead Lantern",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 683,
+		"Variant": 21015,
+		"Name": "Crystal - Undead Fanged",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 683,
+		"Variant": 21017,
+		"Name": "Crystal - Undead Claw",
+		"Series": "Imaginators",
+		"Element": "Undead"
+	},
+	{
+		"Id": 684,
+		"Variant": 21005,
+		"Name": "Crystal - Tech Reactor",
+		"Series": "Imaginators",
+		"Element": "Tech"
+	},
+	{
+		"Id": 684,
+		"Variant": 21013,
+		"Name": "Crystal - Tech Armor",
+		"Series": "Imaginators",
+		"Element": "Tech"
+	},
+	{
+		"Id": 684,
+		"Variant": 39321,
+		"Name": "Crystal - Tech Pyramid ???",
+		"Series": "Imaginators",
+		"Element": "Tech"
+	},
+	{
+		"Id": 685,
+		"Variant": 21007,
+		"Name": "Crystal - Fire Reactor",
+		"Series": "Imaginators",
+		"Element": "Fire"
+	},
+	{
+		"Id": 685,
+		"Variant": 21009,
+		"Name": "Crystal - Fire Acorn",
+		"Series": "Imaginators",
+		"Element": "Fire"
+	},
+	{
+		"Id": 685,
+		"Variant": 39321,
+		"Name": "Crystal - Fire Angel ???",
+		"Series": "Imaginators",
+		"Element": "Fire"
+	},
+	{
+		"Id": 686,
+		"Variant": 21011,
+		"Name": "Crystal - Earth Armor",
+		"Series": "Imaginators",
+		"Element": "Earth"
+	},
+	{
+		"Id": 686,
+		"Variant": 21021,
+		"Name": "Crystal - Earth Rocket",
+		"Series": "Imaginators",
+		"Element": "Earth"
+	},
+	{
+		"Id": 686,
+		"Variant": 39321,
+		"Name": "Crystal - Earth Rune ???",
+		"Series": "Imaginators",
+		"Element": "Earth"
+	},
+	{
+		"Id": 687,
+		"Variant": 21008,
+		"Name": "Crystal - Life Acorn",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 687,
+		"Variant": 21018,
+		"Name": "Crystal - Life Claw",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 687,
+		"Variant": 21022,
+		"Name": "Crystal - Life Rocket",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 687,
+		"Variant": 21023,
+		"Name": "Crystal - Life Rune",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 687,
+		"Variant": 22032,
+		"Name": "Crystal - Life Acorn (Legendary)",
+		"Series": "Imaginators",
+		"Element": "Life"
+	},
+	{
+		"Id": 688,
+		"Variant": 9999,
+		"Name": "Crystal - Dark Rune ???",
+		"Series": "Imaginators",
+		"Element": "Dark"
+	},
+	{
+		"Id": 688,
+		"Variant": 20998,
+		"Name": "Crystal - Dark Pyramid",
+		"Series": "Imaginators",
+		"Element": "Dark"
+	},
+	{
+		"Id": 688,
+		"Variant": 21006,
+		"Name": "Crystal - Dark Reactor",
+		"Series": "Imaginators",
+		"Element": "Dark"
+	},
+	{
+		"Id": 689,
+		"Variant": 21003,
+		"Name": "Crystal - Light Rune",
+		"Series": "Imaginators",
+		"Element": "Light"
+	},
+	{
+		"Id": 689,
+		"Variant": 21014,
+		"Name": "Crystal - Light Fanged",
+		"Series": "Imaginators",
+		"Element": "Light"
+	},
+	{
+		"Id": 689,
+		"Variant": 22038,
+		"Name": "Crystal - Light Fanged (Legendary)",
+		"Series": "Imaginators",
+		"Element": "Light"
+	},
+	{
+		"Id": 689,
+		"Variant": 39321,
+		"Name": "Crystal - Light Angel ???",
+		"Series": "Imaginators",
+		"Element": "Light"
+	},
+	{
+		"Id": 699,
+		"Variant": 21000,
+		"Name": "Goldie (Invincible)",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 999,
+		"Variant": 4096,
+		"Name": "Debug Minion",
+		"Series": "Spyros Adventure",
+		"Element": "Magic"
+	},
+	{
+		"Id": 1000,
+		"Variant": 8192,
+		"Name": " Jet",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 1001,
+		"Variant": 8192,
+		"Name": " Ranger",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 1001,
+		"Variant": 9219,
+		"Name": " Ranger (Legendary)",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 1002,
+		"Variant": 8192,
+		"Name": " Rouser",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 1003,
+		"Variant": 8192,
+		"Name": " Stone",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 1004,
+		"Variant": 8192,
+		"Name": " Zone",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 1004,
+		"Variant": 9218,
+		"Name": " Zone (Dark)",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 1005,
+		"Variant": 8192,
+		"Name": " Kraken",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 1005,
+		"Variant": 9218,
+		"Name": " Kraken (Jade)",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 1006,
+		"Variant": 8192,
+		"Name": " Bomb",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 1007,
+		"Variant": 8192,
+		"Name": " Drilla",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 1008,
+		"Variant": 8192,
+		"Name": " Loop",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 1008,
+		"Variant": 9218,
+		"Name": " Loop (Enchanted)",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 1009,
+		"Variant": 8192,
+		"Name": " Shadow",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 1010,
+		"Variant": 8192,
+		"Name": " Charge",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 1010,
+		"Variant": 9218,
+		"Name": " Charge (Nitro)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 1011,
+		"Variant": 8192,
+		"Name": " Rise",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 1012,
+		"Variant": 8192,
+		"Name": " Shift",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 1012,
+		"Variant": 9219,
+		"Name": " Shift (Legendary)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 1013,
+		"Variant": 8192,
+		"Name": " Shake",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 1013,
+		"Variant": 9218,
+		"Name": " Shake (Quickdraw)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 1014,
+		"Variant": 8192,
+		"Name": " Blade",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 1014,
+		"Variant": 9218,
+		"Name": " Blade (Nitro)",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 1015,
+		"Variant": 8192,
+		"Name": " Buckler",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 1015,
+		"Variant": 9218,
+		"Name": " Buckler (Dark)",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 1999,
+		"Variant": 0,
+		"Name": " Template",
+		"Series": "SwapForce",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 2000,
+		"Variant": 8192,
+		"Name": "Boom",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 2001,
+		"Variant": 8192,
+		"Name": "Free",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 2001,
+		"Variant": 9219,
+		"Name": "Free (Legendary)",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 2002,
+		"Variant": 8192,
+		"Name": "Rubble",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 2003,
+		"Variant": 8192,
+		"Name": "Doom",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 2004,
+		"Variant": 8192,
+		"Name": "Blast",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 2004,
+		"Variant": 9218,
+		"Name": "Blast (Dark)",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 2005,
+		"Variant": 8192,
+		"Name": "Fire",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 2005,
+		"Variant": 9218,
+		"Name": "Fire (Jade)",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 2006,
+		"Variant": 8192,
+		"Name": "Stink",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 2007,
+		"Variant": 8192,
+		"Name": "Grilla",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 2008,
+		"Variant": 8192,
+		"Name": "Hoot",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 2008,
+		"Variant": 9218,
+		"Name": "Hoot (Enchanted)",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 2009,
+		"Variant": 8192,
+		"Name": "Trap",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 2010,
+		"Variant": 8192,
+		"Name": "Magna",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 2010,
+		"Variant": 9218,
+		"Name": "Magna (Nitro)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 2011,
+		"Variant": 8192,
+		"Name": "Spy",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 2012,
+		"Variant": 8192,
+		"Name": "Night",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 2012,
+		"Variant": 9219,
+		"Name": "Night (Legendary)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 2013,
+		"Variant": 8192,
+		"Name": "Rattle",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 2013,
+		"Variant": 9218,
+		"Name": "Rattle(Quickdraw)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 2014,
+		"Variant": 8192,
+		"Name": "Freeze",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 2014,
+		"Variant": 9218,
+		"Name": "Freeze (Nitro)",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 2015,
+		"Variant": 8192,
+		"Name": "Wash",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 2015,
+		"Variant": 9218,
+		"Name": "Wash (Dark)",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 2999,
+		"Variant": 0,
+		"Name": "Template",
+		"Series": "SwapForce",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 3000,
+		"Variant": 8192,
+		"Name": "Scratch",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 3001,
+		"Variant": 8192,
+		"Name": "Pop Thorn",
+		"Series": "SwapForce",
+		"Element": "Air"
+	},
+	{
+		"Id": 3002,
+		"Variant": 8192,
+		"Name": "Slobber Tooth",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3002,
+		"Variant": 9218,
+		"Name": "Slobber Tooth (Dark)",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3003,
+		"Variant": 8192,
+		"Name": "Scorp",
+		"Series": "SwapForce",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3004,
+		"Variant": 8192,
+		"Name": "Fryno",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3004,
+		"Variant": 14337,
+		"Name": "Fryno (Hog Wild)",
+		"Series": "TrapTeam",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3005,
+		"Variant": 8192,
+		"Name": "Smolderdash",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3005,
+		"Variant": 8710,
+		"Name": "Smolderdash (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3006,
+		"Variant": 8192,
+		"Name": "Bumble Blast",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 3006,
+		"Variant": 8710,
+		"Name": "Bumble Blast (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 3006,
+		"Variant": 9218,
+		"Name": "Bumble Blast (Jolly)",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 3007,
+		"Variant": 8192,
+		"Name": "Zoo Lou",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 3007,
+		"Variant": 9219,
+		"Name": "Zoo Lou (Legendary)",
+		"Series": "SwapForce",
+		"Element": "Life"
+	},
+	{
+		"Id": 3008,
+		"Variant": 8192,
+		"Name": "Dune Bug",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3009,
+		"Variant": 8192,
+		"Name": "Star Strike",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3009,
+		"Variant": 8710,
+		"Name": "Star Strike (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3009,
+		"Variant": 9730,
+		"Name": "Star Strike (Lightcore Enchanted)",
+		"Series": "SwapForce",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3010,
+		"Variant": 8192,
+		"Name": "Countdown",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3010,
+		"Variant": 8710,
+		"Name": "Countdown (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3010,
+		"Variant": 9218,
+		"Name": "Countdown (Kickoff)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3011,
+		"Variant": 8192,
+		"Name": "Wind Up",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3011,
+		"Variant": 9220,
+		"Name": "Wind Up (Gear Head Vicarious Visions)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3012,
+		"Variant": 8192,
+		"Name": "Roller Brawl",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3013,
+		"Variant": 8192,
+		"Name": "Grim Creeper",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3013,
+		"Variant": 8710,
+		"Name": "Grim Creeper (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3013,
+		"Variant": 9731,
+		"Name": "Grim Creeper (Legendary) (Lightcore)",
+		"Series": "SwapForce",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3014,
+		"Variant": 8192,
+		"Name": "Rip Tide",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 3015,
+		"Variant": 8192,
+		"Name": "Punk Shock",
+		"Series": "SwapForce",
+		"Element": "Water"
+	},
+	{
+		"Id": 3200,
+		"Variant": 8192,
+		"Name": "Item - Battle Hammer",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3201,
+		"Variant": 8192,
+		"Name": "Item - Sky Diamond",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3202,
+		"Variant": 8192,
+		"Name": "Item - Platinum Sheep",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3203,
+		"Variant": 8192,
+		"Name": "Item - Groove Machine",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3204,
+		"Variant": 8192,
+		"Name": "Item - Ufo Hat",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3220,
+		"Variant": 16384,
+		"Name": "Vehicle - Jet Stream",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3221,
+		"Variant": 16384,
+		"Name": "Vehicle - Tomb Buggy",
+		"Series": "Superchargers",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3222,
+		"Variant": 16384,
+		"Name": "Vehicle - Reef Ripper",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3223,
+		"Variant": 16384,
+		"Name": "Vehicle - Burn-Cycle",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3224,
+		"Variant": 16384,
+		"Name": "Vehicle - Hot Streak",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3224,
+		"Variant": 16388,
+		"Name": "Vehicle - Hot Streak (Mobile)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3224,
+		"Variant": 17410,
+		"Name": "Vehicle - Hot Streak (Dark)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3224,
+		"Variant": 17438,
+		"Name": "Vehicle - Hot Streak (Golden) (E3)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3224,
+		"Variant": 17679,
+		"Name": "Vehicle - Hot Streak (Instant)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3225,
+		"Variant": 16384,
+		"Name": "Vehicle - Shark Tank",
+		"Series": "Superchargers",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3226,
+		"Variant": 16384,
+		"Name": "Vehicle - Thump Truck",
+		"Series": "Superchargers",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3227,
+		"Variant": 16384,
+		"Name": "Vehicle - Crypt Crusher",
+		"Series": "Superchargers",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3228,
+		"Variant": 16384,
+		"Name": "Vehicle - Stealth Stinger",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3228,
+		"Variant": 17410,
+		"Name": "Vehicle - Stealth Stinger (Nitro) ???",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3228,
+		"Variant": 17679,
+		"Name": "Vehicle - Stealth Stinger (Instant)",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3231,
+		"Variant": 16384,
+		"Name": "Vehicle - Dive Bomber",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3231,
+		"Variant": 17410,
+		"Name": "Vehicle - Dive Bomber (Spring Ahead)",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3231,
+		"Variant": 17679,
+		"Name": "Vehicle - Dive Bomber (Instant)",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3232,
+		"Variant": 16384,
+		"Name": "Vehicle - Sky Slicer",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3232,
+		"Variant": 17679,
+		"Name": "Vehicle - Sky Slicer (Instant)",
+		"Series": "Imaginators",
+		"Element": "Air"
+	},
+	{
+		"Id": 3233,
+		"Variant": 16384,
+		"Name": "Vehicle - Clown Cruiser",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3233,
+		"Variant": 17410,
+		"Name": "Vehicle - Clown Cruiser (Dark)",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3234,
+		"Variant": 16384,
+		"Name": "Vehicle - Gold Rusher",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3234,
+		"Variant": 17410,
+		"Name": "Vehicle - Gold Rusher (Power Blue)",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3235,
+		"Variant": 16384,
+		"Name": "Vehicle - Shield Striker",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3236,
+		"Variant": 16384,
+		"Name": "Vehicle - Sun Runner",
+		"Series": "Superchargers",
+		"Element": "Light"
+	},
+	{
+		"Id": 3236,
+		"Variant": 17411,
+		"Name": "Vehicle - Sun Runner (Legendary)",
+		"Series": "Superchargers",
+		"Element": "Light"
+	},
+	{
+		"Id": 3237,
+		"Variant": 16384,
+		"Name": "Vehicle - Sea Shadow",
+		"Series": "Superchargers",
+		"Element": "Dark"
+	},
+	{
+		"Id": 3237,
+		"Variant": 17410,
+		"Name": "Vehicle - Sea Shadow (Dark)",
+		"Series": "Superchargers",
+		"Element": "Dark"
+	},
+	{
+		"Id": 3237,
+		"Variant": 17679,
+		"Name": "Vehicle - Sea Shadow (Instant)",
+		"Series": "Imaginators",
+		"Element": "Dark"
+	},
+	{
+		"Id": 3238,
+		"Variant": 16384,
+		"Name": "Vehicle - Splatter Splasher",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3238,
+		"Variant": 17410,
+		"Name": "Vehicle - Splatter Splasher (Power Blue)",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3239,
+		"Variant": 16384,
+		"Name": "Vehicle - Soda Skimmer",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3239,
+		"Variant": 17410,
+		"Name": "Vehicle - Soda Skimmer (Nitro)",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3240,
+		"Variant": 16384,
+		"Name": "Vehicle - Barrel Blaster",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3240,
+		"Variant": 17410,
+		"Name": "Vehicle - Barrel Blaster (Dark)",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3241,
+		"Variant": 16384,
+		"Name": "Vehicle - Buzz Wing",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3300,
+		"Variant": 8192,
+		"Name": "Item - Sheep Wreck Island",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3301,
+		"Variant": 8192,
+		"Name": "Item - Tower Of Time",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3302,
+		"Variant": 8710,
+		"Name": "Item - Fiery Forge",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3303,
+		"Variant": 8710,
+		"Name": "Item - Arkeyan Crossbow",
+		"Series": "SwapForce",
+		"Element": "None"
+	},
+	{
+		"Id": 3400,
+		"Variant": 16640,
+		"Name": "Fiesta",
+		"Series": "Superchargers",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3400,
+		"Variant": 17685,
+		"Name": "Fiesta (Frightful)",
+		"Series": "Superchargers",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3401,
+		"Variant": 16640,
+		"Name": "High Volt",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3402,
+		"Variant": 16640,
+		"Name": "Splat",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3402,
+		"Variant": 17666,
+		"Name": "Splat (Power Blue)",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3406,
+		"Variant": 16640,
+		"Name": "Stormblade",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3406,
+		"Variant": 17666,
+		"Name": "Stormblade (Dark)",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3406,
+		"Variant": 17667,
+		"Name": "Stormblade (Dark)",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3411,
+		"Variant": 16640,
+		"Name": "Smash Hit",
+		"Series": "Superchargers",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3411,
+		"Variant": 17666,
+		"Name": "Smash Hit (Steel Plated)",
+		"Series": "Superchargers",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3412,
+		"Variant": 16640,
+		"Name": "Spitfire",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3412,
+		"Variant": 17666,
+		"Name": "Spitfire (Dark)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3412,
+		"Variant": 17679,
+		"Name": "Spitfire (Instant)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3413,
+		"Variant": 16640,
+		"Name": "Jet-Vac (Hurricane)",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3413,
+		"Variant": 17667,
+		"Name": "Jet-Vac (Legendary Hurricane)",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3414,
+		"Variant": 16640,
+		"Name": "Trigger Happy (Double Dare)",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3414,
+		"Variant": 17666,
+		"Name": "Trigger Happy (Power Blue)",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3415,
+		"Variant": 16640,
+		"Name": "Stealth Elf (Super Shot)",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3415,
+		"Variant": 17666,
+		"Name": "Stealth Elf (Dark Super Shot)",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3415,
+		"Variant": 17679,
+		"Name": "Stealth Elf (Instant)",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3416,
+		"Variant": 16640,
+		"Name": "Terrafin (Shark Shooter)",
+		"Series": "Superchargers",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3417,
+		"Variant": 16640,
+		"Name": "Roller Brawl (Bone Bash)",
+		"Series": "Superchargers",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3417,
+		"Variant": 17667,
+		"Name": "Roller Brawl (Legendary Bone Bash)",
+		"Series": "Superchargers",
+		"Element": "Undead"
+	},
+	{
+		"Id": 3420,
+		"Variant": 16640,
+		"Name": "Big Bubble Pop Fizz",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3420,
+		"Variant": 17678,
+		"Name": "Pop Fizz (Birthday Bash Big Bubble)",
+		"Series": "Superchargers",
+		"Element": "Magic"
+	},
+	{
+		"Id": 3421,
+		"Variant": 16640,
+		"Name": "Eruptor (Lava Lance)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3422,
+		"Variant": 16640,
+		"Name": "Gill Grunt (Deep Dive)",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3423,
+		"Variant": 16640,
+		"Name": "Donkey Kong (Turbo Charge)",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3423,
+		"Variant": 17666,
+		"Name": "Donkey Kong (Dark Turbo Charge)",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3424,
+		"Variant": 16640,
+		"Name": "Bowser (Hammer Slam)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3424,
+		"Variant": 17666,
+		"Name": "Bowser (Dark Hammer Slam)",
+		"Series": "Superchargers",
+		"Element": "Fire"
+	},
+	{
+		"Id": 3425,
+		"Variant": 16640,
+		"Name": "Dive-Clops",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3425,
+		"Variant": 17678,
+		"Name": "Dive-Clops (Missile-Tow)",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3425,
+		"Variant": 17679,
+		"Name": "Dive-Clops (Instant)",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3426,
+		"Variant": 16640,
+		"Name": "Astroblast",
+		"Series": "Superchargers",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3426,
+		"Variant": 17667,
+		"Name": "Astroblast (Legendary)",
+		"Series": "Superchargers",
+		"Element": "Light"
+	},
+	{
+		"Id": 3427,
+		"Variant": 16640,
+		"Name": "Nightfall",
+		"Series": "Superchargers",
+		"Element": "Dark"
+	},
+	{
+		"Id": 3428,
+		"Variant": 16640,
+		"Name": "Thrillipede",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3428,
+		"Variant": 17677,
+		"Name": "Thrillipede (Eggcited)",
+		"Series": "Superchargers",
+		"Element": "Life"
+	},
+	{
+		"Id": 3500,
+		"Variant": 16384,
+		"Name": "Sky Trophy",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3500,
+		"Variant": 17411,
+		"Name": "Sky Trophy (Legendary) ???",
+		"Series": "Superchargers",
+		"Element": "Air"
+	},
+	{
+		"Id": 3501,
+		"Variant": 16384,
+		"Name": "Land Trophy",
+		"Series": "Superchargers",
+		"Element": "Earth"
+	},
+	{
+		"Id": 3502,
+		"Variant": 16384,
+		"Name": "Sea Trophy",
+		"Series": "Superchargers",
+		"Element": "Water"
+	},
+	{
+		"Id": 3503,
+		"Variant": 16384,
+		"Name": "Kaos Trophy",
+		"Series": "Superchargers",
+		"Element": "Kaos"
+	},
+	{
+		"Id": 3999,
+		"Variant": 0,
+		"Name": "Template Legacy",
+		"Series": "Giants",
+		"Element": "Tech"
+	},
+	{
+		"Id": 5999,
+		"Variant": 0,
+		"Name": "Template Land Vehicle",
+		"Series": "Superchargers",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 6999,
+		"Variant": 0,
+		"Name": "Template Air Vehicle",
+		"Series": "Superchargers",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 7999,
+		"Variant": 0,
+		"Name": "Template Sea Vehicle",
+		"Series": "Superchargers",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 113,
+		"Variant": "Unknown",
+		"Name": "Sniper",
+		"Series": "Giants",
+		"Element": "Life"
+	},
+	{
+		"Id": 699,
+		"Variant": 21000,
+		"Name": "Goldie (Invincible)",
+		"Series": "Imaginators",
+		"Element": "Magic"
+	},
+	{
+		"Id": 999,
+		"Variant": 4096,
+		"Name": "Debug Minion",
+		"Series": "Spyros Adventure",
+		"Element": "Magic"
+	},
+	{
+		"Id": 1999,
+		"Variant": 0,
+		"Name": "Template Template (Bottom)",
+		"Series": "SwapForce",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 2999,
+		"Variant": 0,
+		"Name": "Template Template (Top)",
+		"Series": "SwapForce",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 3011,
+		"Variant": 9220,
+		"Name": "Wind Up (Gear Head Vicarious Visions)",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 3999,
+		"Variant": 0,
+		"Name": "Template Legacy",
+		"Series": "SwapForce",
+		"Element": "Tech"
+	},
+	{
+		"Id": 5999,
+		"Variant": 0,
+		"Name": "Template Land Vehicle",
+		"Series": "Superchargers",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 6999,
+		"Variant": 0,
+		"Name": "Template Air Vehicle",
+		"Series": "Superchargers",
+		"Element": "Unknown"
+	},
+	{
+		"Id": 7999,
+		"Variant": 0,
+		"Name": "Template Sea Vehicle",
+		"Series": "Superchargers",
+		"Element": "Unknown"
+	}
+]
+}
