@@ -1,4 +1,4 @@
-# VortexEngine
+# Vortex Engine
 NFC reader and writer in Unity using Skylanders portals. This is a Unity package that will let you create a Toys to Life game like Skylanders. Personally, I am developing it to use in an online Dungeons and Dragons game for my friends.
 
 The project portion is a mini Skylanders knock-off that I built to showcase what the commands can do in a game setting including reading and writing to a figure. The package is just the major scripts. The best way to use this project would be to write your own Courintine loop (Update Every Frame, Breaks The Game) and only call the functions and commands that you need.
