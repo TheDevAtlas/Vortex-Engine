@@ -75,3 +75,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d6a8bc224d5f504498193b55051593e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  portalColor: {r: 0, g: 0.0019574165, b: 1, a: 0}
