@@ -1,13 +1,7 @@
-using NUnit.Framework.Internal;
 using System;
 using System.Collections;
-using System.Linq;
-using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.DualShock;
-using UnityEngine.InputSystem.LowLevel;
-using UnityEngine.Windows;
 
 public class ColorCommand : MonoBehaviour
 {

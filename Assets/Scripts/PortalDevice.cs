@@ -2,11 +2,8 @@
 // This Script Allows The Input System To Add An Unknown Device: The Portal Of Power \\
 //                                                                                   \\
 
-using System;
 using System.Linq;
 using System.Runtime.InteropServices;
-using Unity.Collections.LowLevel.Unsafe;
-using Unity.VisualScripting.FullSerializer;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -14,7 +11,6 @@ using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem.Layouts;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.InputSystem.Utilities;
-using UnityEngine.Windows;
 
 [StructLayout(LayoutKind.Explicit, Size = 33)]
 public struct PortalState : IInputStateTypeInfo
@@ -199,7 +195,6 @@ internal struct PortalCommand : IInputDeviceCommandInfo
     public byte _1FByte;
     [FieldOffset(InputDeviceCommand.BaseCommandSize + 32)]
     public byte _20Byte;
-    
 
     public FourCC typeStatic
     {
@@ -208,8 +203,6 @@ internal struct PortalCommand : IInputDeviceCommandInfo
 
     public static PortalCommand Create(byte[] data)
     {
-        IntPtr inputPtr = Marshal.AllocHGlobal(data.Length);
-        Marshal.Copy(data, 0, inputPtr, data.Length);
         return new PortalCommand
         {
             baseCommand = new InputDeviceCommand(Type, kSize),
@@ -251,7 +244,9 @@ internal struct PortalCommand : IInputDeviceCommandInfo
 }
 
 [InputControlLayout(stateType = typeof(PortalState))]
+#if (UNITY_EDITOR)
 [InitializeOnLoad]
+#endif
 public class PortalDevice : InputDevice
 {
     [InputControl(displayName = "_00Byte")]
@@ -365,7 +360,6 @@ public class PortalDevice : InputDevice
 
     protected override unsafe long ExecuteCommand(InputDeviceCommand* commandPtr)
     {
-        Debug.LogWarning("This is the new execute command");
 
         return base.ExecuteCommand(commandPtr);
     }
@@ -374,9 +368,9 @@ public class PortalDevice : InputDevice
     {
         InputSystem.RegisterLayout<PortalDevice>(
             matches: new InputDeviceMatcher()
-            .WithInterface("HID") // try HID, HIDO, ECT
-            .WithCapability("vendorId", 0x1430)  // Look into diff portals + products
-            .WithCapability("productId", 0x0150) // look into potential diff codes for consoles ect.
+            .WithInterface("HID")
+            .WithCapability("vendorId", 0x1430)  // Activision ID
+            .WithCapability("productId", 0x0150) // Portal ID
         );
 
         if (!InputSystem.devices.Any(x => x is PortalDevice))
@@ -386,7 +380,9 @@ public class PortalDevice : InputDevice
     }
 
     [RuntimeInitializeOnLoadMethod]
+#if (UNITY_EDITOR)
     [MenuItem("Tools/Add Portal Device")]
+#endif
     public static void Initialize()
     {
     }
