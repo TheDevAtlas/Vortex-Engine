@@ -1,10 +1,13 @@
+using NUnit.Framework.Internal;
 using System;
 using System.Collections;
 using System.Linq;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.DualShock;
 using UnityEngine.InputSystem.LowLevel;
+using UnityEngine.Windows;
 
 public class ColorCommand : MonoBehaviour
 {
@@ -14,6 +17,7 @@ public class ColorCommand : MonoBehaviour
 
     public bool isActivated;
     public bool isReady;
+    public byte testValue;
 
     private void Awake()
     {
@@ -43,7 +47,6 @@ public class ColorCommand : MonoBehaviour
             data[0] = 0x00;
             data[1] = Convert.ToByte('A');
             data[2] = 0x01;
-
             var command = PortalCommand.Create(data);
 
             // Send the command to the device.

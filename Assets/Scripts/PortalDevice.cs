@@ -14,6 +14,7 @@ using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem.Layouts;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.InputSystem.Utilities;
+using UnityEngine.Windows;
 
 [StructLayout(LayoutKind.Explicit, Size = 33)]
 public struct PortalState : IInputStateTypeInfo
@@ -198,6 +199,7 @@ internal struct PortalCommand : IInputDeviceCommandInfo
     public byte _1FByte;
     [FieldOffset(InputDeviceCommand.BaseCommandSize + 32)]
     public byte _20Byte;
+    
 
     public FourCC typeStatic
     {
@@ -206,6 +208,8 @@ internal struct PortalCommand : IInputDeviceCommandInfo
 
     public static PortalCommand Create(byte[] data)
     {
+        IntPtr inputPtr = Marshal.AllocHGlobal(data.Length);
+        Marshal.Copy(data, 0, inputPtr, data.Length);
         return new PortalCommand
         {
             baseCommand = new InputDeviceCommand(Type, kSize),
