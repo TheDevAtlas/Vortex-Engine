@@ -76,3 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portalColor: {r: 0, g: 0.0019574165, b: 1, a: 0}
+  portalColorDelay: 0
+  isActivated: 0
+  isReady: 0
+  offset: 0

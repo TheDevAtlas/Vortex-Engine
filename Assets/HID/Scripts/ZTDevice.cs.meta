@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ad3aebbe207f12a42a87e208b494537a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207203
+  packageName: HID Gamepad Data Input/Output
+  packageVersion: 1.0
+  assetPath: Assets/HID/Scripts/ZTDevice.cs
+  uploadId: 469655

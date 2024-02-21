@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ad0af061eb643844c8191983d1ca395d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207203
+  packageName: HID Gamepad Data Input/Output
+  packageVersion: 1.0
+  assetPath: Assets/HID/Chart/Prefabs/Button.prefab
+  uploadId: 469655

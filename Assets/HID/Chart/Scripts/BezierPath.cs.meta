@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 89b61e0416e1256469165fca78d5ed21
+timeCreated: 1463598733
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207203
+  packageName: HID Gamepad Data Input/Output
+  packageVersion: 1.0
+  assetPath: Assets/HID/Chart/Scripts/BezierPath.cs
+  uploadId: 469655

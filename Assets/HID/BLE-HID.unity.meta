@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3dac439241cf01248ac52c91735454c3
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207203
+  packageName: HID Gamepad Data Input/Output
+  packageVersion: 1.0
+  assetPath: Assets/HID/BLE-HID.unity
+  uploadId: 469655

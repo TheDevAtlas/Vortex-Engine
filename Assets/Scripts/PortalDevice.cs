@@ -126,8 +126,6 @@ public struct PortalState : IInputStateTypeInfo
 internal struct PortalCommand : IInputDeviceCommandInfo
 {
     public static FourCC Type => new FourCC('H', 'I', 'D', 'O');
-
-    internal const int id = 0x01;
     internal const int kSize = InputDeviceCommand.BaseCommandSize + 33;
 
     [FieldOffset(0)]
@@ -211,7 +209,6 @@ internal struct PortalCommand : IInputDeviceCommandInfo
         return new PortalCommand
         {
             baseCommand = new InputDeviceCommand(Type, kSize),
-            //reportId = id,
             _00Byte = data[0],
             _01Byte = data[1],
             _02Byte = data[2],
@@ -388,5 +385,11 @@ public class PortalDevice : InputDevice
     [MenuItem("Tools/Add Portal Device")]
     public static void Initialize()
     {
+    }
+
+    public PortalState GetNewState()
+    {
+        //InputSystem.QueueStateEvent(this, new PortalState());
+        return new PortalState();
     }
 }

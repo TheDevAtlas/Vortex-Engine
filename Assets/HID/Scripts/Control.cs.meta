@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5c78782ba9f2fa14995bcbcf8408cb38
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207203
+  packageName: HID Gamepad Data Input/Output
+  packageVersion: 1.0
+  assetPath: Assets/HID/Scripts/Control.cs
+  uploadId: 469655

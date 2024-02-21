@@ -61,8 +61,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.3f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HID\Chart\Scripts\SetPropertyUtility.cs" />
     <Compile Include="Assets\Scripts\ColorCommand.cs" />
+    <Compile Include="Assets\HID\Scripts\ZTDevice.cs" />
+    <Compile Include="Assets\HID\Chart\Scripts\ChartDisplay.cs" />
+    <Compile Include="Assets\HID\Chart\Scripts\UILineRenderer.cs" />
+    <Compile Include="Assets\HID\Scripts\MyControlCommand.cs" />
+    <Compile Include="Assets\HID\Chart\Scripts\SliderColor.cs" />
+    <Compile Include="Assets\HID\Scripts\Control.cs" />
     <Compile Include="Assets\Scripts\PortalDevice.cs" />
+    <Compile Include="Assets\HID\Chart\Scripts\BezierPath.cs" />
+    <Compile Include="Assets\HID\Chart\Scripts\UIPrimitiveBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
