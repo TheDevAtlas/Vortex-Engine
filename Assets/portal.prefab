@@ -79,4 +79,6 @@ MonoBehaviour:
   portalColorDelay: 0
   isActivated: 0
   isReady: 0
-  offset: 0
+  pollingRate: 50
+  colorPickerObject: {fileID: 2130943084915617138, guid: 4214b57e615806c448ba9d993d629531, type: 3}
+  layoutObject: {fileID: 0}

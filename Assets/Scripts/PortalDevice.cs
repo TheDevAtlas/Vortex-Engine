@@ -2,6 +2,7 @@
 // This Script Allows The Input System To Add An Unknown Device: The Portal Of Power \\
 //                                                                                   \\
 
+using System;
 using System.Linq;
 using System.Runtime.InteropServices;
 using UnityEditor;
@@ -356,12 +357,6 @@ public class PortalDevice : InputDevice
 
         _20Byte = GetChildControl<ButtonControl>("_20Byte");
 
-    }
-
-    protected override unsafe long ExecuteCommand(InputDeviceCommand* commandPtr)
-    {
-
-        return base.ExecuteCommand(commandPtr);
     }
 
     static PortalDevice()

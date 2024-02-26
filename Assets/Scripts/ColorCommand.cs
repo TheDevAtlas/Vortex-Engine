@@ -11,7 +11,11 @@ public class ColorCommand : MonoBehaviour
 
     public bool isActivated;
     public bool isReady;
-    public byte testValue;
+
+    public float pollingRate;
+
+    public GameObject colorPickerObject;
+    public Transform layoutObject;
 
     private void Awake()
     {
@@ -19,6 +23,11 @@ public class ColorCommand : MonoBehaviour
         // portalDevice = InputSystem.devices.FirstOrDefault(x => x is PortalDevice) as PortalDevice;
         portalDevice = (PortalDevice)GetComponent<PlayerInput>().devices[0];
         StartCoroutine(ActivatePortal());
+
+        layoutObject = GameObject.FindGameObjectWithTag("Respawn").transform;
+
+        colorPickerObject = Instantiate(colorPickerObject);
+        colorPickerObject.transform.SetParent(layoutObject,false);
     }
 
     private void Update()
@@ -30,7 +39,7 @@ public class ColorCommand : MonoBehaviour
     {
         if(isActivated)
         {
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(1f/pollingRate);
             StartCoroutine(ReadyPortal());
         }
         else
@@ -50,7 +59,7 @@ public class ColorCommand : MonoBehaviour
             {
                 isActivated = true;
             }
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(1f/pollingRate);
 
             
             StartCoroutine(ActivatePortal());
@@ -61,7 +70,7 @@ public class ColorCommand : MonoBehaviour
     {
         if (isReady)
         {
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(1f/pollingRate);
             StartCoroutine(UpdatePortal());
         }
         else
@@ -83,7 +92,7 @@ public class ColorCommand : MonoBehaviour
                 isReady = true;
             }
 
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(1f/pollingRate);
             StartCoroutine(ReadyPortal());
         }
     }
@@ -94,12 +103,14 @@ public class ColorCommand : MonoBehaviour
         if (portalDevice == null)
         {
             Debug.LogWarning("PortalDevice not found.");
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(1f/pollingRate);
             StartCoroutine(UpdatePortal());
         }
         else
         {
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(1f/pollingRate);
+
+            Color c = colorPickerObject.GetComponent<FlexibleColorPicker>().GetColor();
 
             //portalDevice = (PortalDevice)GetComponent<PlayerInput>().devices[0];
 
@@ -116,9 +127,9 @@ public class ColorCommand : MonoBehaviour
             data = new byte[33];
             data[0] = 0x00;
             data[1] = Convert.ToByte('C');
-            data[2] = (byte)(portalColor.r * 255f);
-            data[3] = (byte)(portalColor.g * 255f);
-            data[4] = (byte)(portalColor.b * 255f);
+            data[2] = (byte)(c.r * 255f);
+            data[3] = (byte)(c.g * 255f);
+            data[4] = (byte)(c.b * 255f);
 
             var command = PortalCommand.Create(data);
             
