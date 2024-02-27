@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Read Write Scene.unity
+- path: Assets/Scenes/Color Test Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
