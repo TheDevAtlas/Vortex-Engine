@@ -395,6 +395,7 @@
 "Assets/FlexibleColorPicker/Scripts/FlexibleColorPicker.cs"
 "Assets/Scripts/ColorCommand.cs"
 "Assets/Scripts/PortalDevice.cs"
+"Assets/Scripts/PortalReadWrite.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
