@@ -25,22 +25,18 @@ public class PortalReadWrite : MonoBehaviour
 
     void Awake()
     {
+        // Get Device \\
         portalDevice = (PortalDevice)GetComponent<PlayerInput>().devices[0];
         StartCoroutine(ActivatePortal());
 
+        // UI Setup \\
         layoutObject = GameObject.FindGameObjectWithTag("Respawn").transform;
-
-        //readWriteUI = Instantiate(readWriteUI);
         readWriteUI.transform.SetParent(layoutObject, false);
-    }
-
-    void Update()
-    {
-
     }
 
     public void WriteToToy()
     {
+        // Create Command To Write To Toy \\
         byte[] textBytes = Encoding.UTF8.GetBytes(textInput.text);
 
         byte[] data = new byte[33];
@@ -56,11 +52,13 @@ public class PortalReadWrite : MonoBehaviour
 
         var command = PortalCommand.Create(data);
 
+        // Send command \\
         print("Write To Toy : " + portalDevice.ExecuteCommand(ref command));
     }
 
     public void ReadFromToy()
     {
+        // Create command To Read From Toy \\
         byte[] data = new byte[33];
         data[0] = 0x00;
         data[1] = Convert.ToByte('Q');
@@ -68,8 +66,10 @@ public class PortalReadWrite : MonoBehaviour
         data[3] = 0x00; // first block?
         var command = PortalCommand.Create(data);
 
+        // Send Command \\
         print("Read From Toy : " + portalDevice.ExecuteCommand(ref command));
 
+        // Check Response \\
         if (Convert.ToChar((int)(portalDevice._01Byte.magnitude * 255f)) == Convert.ToByte('Q'))
         {
             print("Reading Success, Getting Bytes");
@@ -93,26 +93,16 @@ public class PortalReadWrite : MonoBehaviour
             byteList[14] = (byte)(portalDevice._12Byte.magnitude * 255f);
             byteList[15] = (byte)(portalDevice._13Byte.magnitude * 255f);
 
-            //textOutput.text = Encoding.UTF8.GetString(byteList);
-
-            //Encoding.UTF8.GetBytes(textInput.text)
-
+            // Use UTF8 To Convert Byte To Text \\
             textOutput.text = Encoding.UTF8.GetString(byteList);
+
+            // Output Data \\
             print(textOutput.text);
-
-/*            string name = "";
-
-            for(int i = 0; i < byteList.Length; i++)
-            {
-                name += Convert.ToChar((int)byteList[i]);
-            }
-
-            textOutput.text = name;*/
-
             print("Raw Bytes : " + string.Join(", ", byteList));
         }
     }
 
+    // SAME AS COLOR COMMAND SCRIPT \\
     IEnumerator ActivatePortal()
     {
         if (isActivated)
@@ -142,6 +132,7 @@ public class PortalReadWrite : MonoBehaviour
         }
     }
 
+    // SAME AS COLOR COMMAND SCRIPT \\
     IEnumerator ReadyPortal()
     {
         if (isReady)
@@ -170,6 +161,7 @@ public class PortalReadWrite : MonoBehaviour
         }
     }
 
+    // SAME AS COLOR COMMAND SCRIPT \\
     IEnumerator ColorPortal()
     {
         if (portalDevice == null || !isActive)

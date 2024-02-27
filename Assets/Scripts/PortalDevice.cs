@@ -16,6 +16,8 @@ using UnityEngine.InputSystem.Utilities;
 [StructLayout(LayoutKind.Explicit, Size = 33)]
 public struct PortalState : IInputStateTypeInfo
 {
+    // Portal State Is What Unity Reads From The Portal \\
+
     public FourCC format => new FourCC('H', 'I', 'D');
 
     [InputControl(name = "_00Byte", format = "BYTE", layout = "button")]
@@ -123,6 +125,8 @@ public struct PortalState : IInputStateTypeInfo
 [StructLayout(LayoutKind.Explicit, Size = kSize)]
 internal struct PortalCommand : IInputDeviceCommandInfo
 {
+    // Portal Command Allows For Unity To Send A Command \\
+
     public static FourCC Type => new FourCC('H', 'I', 'D', 'O');
     internal const int kSize = InputDeviceCommand.BaseCommandSize + 33;
 
@@ -202,10 +206,12 @@ internal struct PortalCommand : IInputDeviceCommandInfo
         get { return Type; }
     }
 
+    // Creates The Struct For Use In Other Scripts \\
     public static PortalCommand Create(byte[] data)
     {
         return new PortalCommand
         {
+            // You Need To Describe How Many Bytes You Are Sending (kSize) \\
             baseCommand = new InputDeviceCommand(Type, kSize),
             _00Byte = data[0],
             _01Byte = data[1],
@@ -244,12 +250,17 @@ internal struct PortalCommand : IInputDeviceCommandInfo
     }
 }
 
+// Create The Portal Device Itself / Setup Reading \\
+
 [InputControlLayout(stateType = typeof(PortalState))]
 #if (UNITY_EDITOR)
 [InitializeOnLoad]
 #endif
 public class PortalDevice : InputDevice
 {
+    // Create The Bytes For Reading / What Byte It Is \\
+    // This Shows Up In The Input Debugger For Use    \\
+
     [InputControl(displayName = "_00Byte")]
     public ButtonControl _00Byte { get; private set; }
     [InputControl(displayName = "_01Byte")]
@@ -317,6 +328,8 @@ public class PortalDevice : InputDevice
     [InputControl(displayName = "_20Byte")]
     public ButtonControl _20Byte { get; private set; }
 
+    // Sets up the device and allows us to connect the data from \\
+    // The usb devices to our portal state                       \\
     protected override void FinishSetup()
     {
         base.FinishSetup();
@@ -359,13 +372,15 @@ public class PortalDevice : InputDevice
 
     }
 
+    // What defines our device against others, basically is this the \\
+    // portal or another device                                      \\
     static PortalDevice()
     {
         InputSystem.RegisterLayout<PortalDevice>(
             matches: new InputDeviceMatcher()
             .WithInterface("HID")
-            .WithCapability("vendorId", 0x1430)  // Activision ID
-            .WithCapability("productId", 0x0150) // Portal ID
+            .WithCapability("vendorId", 0x1430)  // Activision ID \\
+            .WithCapability("productId", 0x0150) // Portal ID     \\
         );
 
         if (!InputSystem.devices.Any(x => x is PortalDevice))
