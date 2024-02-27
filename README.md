@@ -17,7 +17,8 @@ This project has many interesting aplications, but there is one problem. Every m
 
 If you have a soliution to this problem please yell at me, but for now I will work on other projects and come back in a few weeks to finish this project.
 
-Watch how this system was made! - 
+Watch how this system was made! - https://www.youtube.com/watch?v=q8IGqruvz9E
+
 Watch my origional video breakdown here! - https://www.youtube.com/watch?v=XZ1t62T36xE&t=1045s
 
 Cool people that got me started / good information
