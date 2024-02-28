@@ -67,6 +67,7 @@
     <Compile Include="Assets\FlexibleColorPicker\ExampleScene\FCP_ExampleScript.cs" />
     <Compile Include="Assets\Scripts\PortalReadWrite.cs" />
     <Compile Include="Assets\Scripts\PortalDevice.cs" />
+    <Compile Include="Assets\Scripts\AllPortals.cs" />
     <Compile Include="Assets\FlexibleColorPicker\Scripts\FlexibleColorPicker.cs" />
   </ItemGroup>
   <ItemGroup>

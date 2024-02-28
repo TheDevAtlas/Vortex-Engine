@@ -249,6 +249,75 @@ internal struct PortalCommand : IInputDeviceCommandInfo
         };
     }
 }
+/// <summary>
+/// Testing PS4 Way Of Handling Input
+/// </summary>
+/// 
+[StructLayout(LayoutKind.Explicit, Size = 33)]
+internal struct PortalDualSenseHIDOutputReportPayload
+{
+    // output bytes for a total of 33 bytes
+    [FieldOffset(0)] public byte _00Byte;
+    [FieldOffset(1)] public byte _01Byte;
+    [FieldOffset(2)] public byte _02Byte;
+    [FieldOffset(3)] public byte _03Byte;
+    [FieldOffset(4)] public byte _04Byte;
+    [FieldOffset(5)] public byte _05Byte;
+    [FieldOffset(6)] public byte _06Byte;
+    [FieldOffset(7)] public byte _07Byte;
+    [FieldOffset(8)] public byte _08Byte;
+    [FieldOffset(9)] public byte _09Byte;
+    [FieldOffset(10)] public byte _0AByte;
+    [FieldOffset(11)] public byte _0BByte;
+    [FieldOffset(12)] public byte _0CByte;
+    [FieldOffset(13)] public byte _0DByte;
+    [FieldOffset(14)] public byte _0EByte;
+    [FieldOffset(15)] public byte _0FByte;
+    [FieldOffset(16)] public byte _10Byte;
+    [FieldOffset(17)] public byte _11Byte;
+    [FieldOffset(18)] public byte _12Byte;
+    [FieldOffset(19)] public byte _13Byte;
+    [FieldOffset(20)] public byte _14Byte;
+    [FieldOffset(21)] public byte _15Byte;
+    [FieldOffset(22)] public byte _16Byte;
+    [FieldOffset(23)] public byte _17Byte;
+    [FieldOffset(24)] public byte _18Byte;
+    [FieldOffset(25)] public byte _19Byte;
+    [FieldOffset(26)] public byte _1AByte;
+    [FieldOffset(27)] public byte _1BByte;
+    [FieldOffset(28)] public byte _1CByte;
+    [FieldOffset(29)] public byte _1DByte;
+    [FieldOffset(30)] public byte _1EByte;
+    [FieldOffset(31)] public byte _1FByte;
+    [FieldOffset(32)] public byte _20Byte;
+}
+
+[StructLayout(LayoutKind.Explicit, Size = kSize)]
+internal struct PortalDualSenseHIDUSBOutputReport : IInputDeviceCommandInfo
+{
+    public static FourCC Type => new FourCC('H', 'I', 'D', 'O');
+    public FourCC typeStatic => Type;
+
+    internal const int kSize = InputDeviceCommand.BaseCommandSize + 33;
+
+    [FieldOffset(0)] public InputDeviceCommand baseCommand;
+    [FieldOffset(InputDeviceCommand.BaseCommandSize + 0)] public byte reportId;
+    [FieldOffset(InputDeviceCommand.BaseCommandSize + 1)] public PortalDualSenseHIDOutputReportPayload payload;
+
+    public static PortalDualSenseHIDUSBOutputReport Create(PortalDualSenseHIDOutputReportPayload payload)
+    {
+        return new PortalDualSenseHIDUSBOutputReport
+        {
+            baseCommand = new InputDeviceCommand(Type, kSize),
+            reportId = 0,
+            payload = payload
+        };
+    }
+}
+
+/// <summary>
+/// //////////////////////////////////////////////////
+/// </summary>
 
 // Create The Portal Device Itself / Setup Reading \\
 
@@ -399,7 +468,7 @@ public class PortalDevice : InputDevice
 
     public PortalState GetNewState()
     {
-        //InputSystem.QueueStateEvent(this, new PortalState());
+        InputSystem.QueueStateEvent(this, new PortalState());
         return new PortalState();
     }
 }
