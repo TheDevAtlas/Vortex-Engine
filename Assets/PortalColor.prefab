@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6945879410116602577}
   - component: {fileID: 2295881873758410705}
-  - component: {fileID: -180519227890882376}
+  - component: {fileID: 5456226829062304524}
   m_Layer: 0
   m_Name: PortalColor
   m_TagString: Untagged
@@ -63,7 +63,7 @@ MonoBehaviour:
   m_DefaultActionMap: gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &-180519227890882376
+--- !u!114 &5456226829062304524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -72,13 +72,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 9197902065635434508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fffd3db998806d341bdc659cf871cf9a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d6a8bc224d5f504498193b55051593e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portalColor: {r: 0, g: 0.26161647, b: 1, a: 0}
+  portalColor: {r: 0, g: 0.15893555, b: 1, a: 0}
   portalColorDelay: 0
   isActivated: 0
   isReady: 0
-  pollingRate: 0
+  pollingRate: 50
   colorPickerObject: {fileID: 2130943084915617138, guid: 4214b57e615806c448ba9d993d629531, type: 3}
   layoutObject: {fileID: 0}
