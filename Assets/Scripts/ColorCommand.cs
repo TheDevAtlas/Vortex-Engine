@@ -23,7 +23,7 @@ public class ColorCommand : MonoBehaviour
         portalDevice = (PortalDevice)GetComponent<PlayerInput>().devices[0];
 
         // Activate The Portal / Starts The Polling Of The Portal \\
-        StartCoroutine(ActivatePortal());
+        StartCoroutine(UpdatePortal());
 
         // Set Up The UI Objects \\
         layoutObject = GameObject.FindGameObjectWithTag("Respawn").transform;
@@ -37,7 +37,7 @@ public class ColorCommand : MonoBehaviour
         print(Convert.ToChar((int)(portalDevice._01Byte.magnitude * 255f)));
     }
 
-    IEnumerator ActivatePortal()
+    /*IEnumerator ActivatePortal()
     {
         // If Activated Move Onto Ready Command \\
         if(isActivated)
@@ -103,7 +103,9 @@ public class ColorCommand : MonoBehaviour
             // Try Again \\
             StartCoroutine(ReadyPortal());
         }
-    }
+    }*/
+
+    public string codeOut;
 
     IEnumerator UpdatePortal()
     {
@@ -140,12 +142,28 @@ public class ColorCommand : MonoBehaviour
             data[3] = (byte)(c.g * 255f);
             data[4] = (byte)(c.b * 255f);
 
-            var command = PortalCommand.Create(data);
-            
+            for (char i = 'S'; i <= 'Z'; i++)
+            {
+                for (char j = 'A'; j <= 'Z'; j++)
+                {
+                    for (char k = 'A'; k <= 'Z'; k++)
+                    {
+                        for (char l = 'A'; l <= 'Z'; l++)
+                        {
+                            UnityEngine.InputSystem.Utilities.FourCC code = new UnityEngine.InputSystem.Utilities.FourCC((char)i, (char)j, (char)k, (char)l);
+                            var command = PortalCommand.Create(code, data);
 
-            // Send the command to the device \\
-            print(portalDevice.ExecuteCommand(ref command));
-            StartCoroutine(UpdatePortal());
+                            // Send the command to the device
+                            Debug.Log(portalDevice.ExecuteCommand(ref command));
+
+                            codeOut = i.ToString() + j + k + l + "";
+
+                            // Wait for the next frame before continuing the loop to avoid freezing
+                            yield return null;
+                        }
+                    }
+                }
+            }
         }
 
         

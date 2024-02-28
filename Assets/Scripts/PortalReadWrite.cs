@@ -27,14 +27,14 @@ public class PortalReadWrite : MonoBehaviour
     {
         // Get Device \\
         portalDevice = (PortalDevice)GetComponent<PlayerInput>().devices[0];
-        StartCoroutine(ActivatePortal());
+        //StartCoroutine(ActivatePortal());
 
         // UI Setup \\
         layoutObject = GameObject.FindGameObjectWithTag("Respawn").transform;
         readWriteUI.transform.SetParent(layoutObject, false);
     }
 
-    public void WriteToToy()
+    /*public void WriteToToy()
     {
         // Create Command To Write To Toy \\
         byte[] textBytes = Encoding.UTF8.GetBytes(textInput.text);
@@ -189,5 +189,5 @@ public class PortalReadWrite : MonoBehaviour
             print(portalDevice.ExecuteCommand(ref command));
             StartCoroutine(ColorPortal());
         }
-    }
+    }*/
 }

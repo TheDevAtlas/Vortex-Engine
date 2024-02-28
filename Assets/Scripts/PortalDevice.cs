@@ -207,12 +207,12 @@ internal struct PortalCommand : IInputDeviceCommandInfo
     }
 
     // Creates The Struct For Use In Other Scripts \\
-    public static PortalCommand Create(byte[] data)
+    public static PortalCommand Create(FourCC t, byte[] data)
     {
         return new PortalCommand
         {
             // You Need To Describe How Many Bytes You Are Sending (kSize) \\
-            baseCommand = new InputDeviceCommand(Type, kSize),
+            baseCommand = new InputDeviceCommand(t, kSize),
             _00Byte = data[0],
             _01Byte = data[1],
             _02Byte = data[2],
