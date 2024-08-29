@@ -1,0 +1,34 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "gameplay",
+            "id": "34deb1fb-0fe6-4a99-87b9-fe323a6c8672",
+            "actions": [
+                {
+                    "name": "join",
+                    "type": "Value",
+                    "id": "af821c63-64c5-4e23-a114-311bbdfdb1f8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "00f1b727-a6fd-4437-85cf-ca774d6f0136",
+                    "path": "<PortalDevice>/_06Byte",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "join",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
